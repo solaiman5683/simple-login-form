@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 20px 25px;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    background-color: #40739e;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #34495e;
+    min-width: 200px;
+    box-shadow: 2 0 3px #333;
+}
+
+.dropdown-menu a {
+    display: block;
+    /* color: #34495e !important; */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+/* Form Section */
+.form-container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 50px 20px;
+    box-shadow: 0 0 3px rgba(51, 51, 51, 0.486);
+    border-radius: 5px;
+}
+
+form h2 {
+    text-align: center;
+    color: #3d3d3d;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.name input {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.email,
+.password,
+.submit-btn {
+    width: 98%;
+    margin: 1%;
+}
+
+.submit-btn {
+    background: rgb(10, 139, 79);
+    font-size: 18px;
+    color: #f1f1f1;
+    font-weight: bold;
+}
